@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    transition: 0.5s
+}
+html,body{
+  overflow-x: hidden
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+section{
+  padding: 3rem;
+}
+p{
+  font-size: 20px;
+  font-weight: 350;
+}
+.container-fluid{
+background: rgb(210, 181, 52)!important;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(17, 15, 15, 0.7),rgba(0, 0, 0, 0.7)),url(./imgs/bainers.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .main-content h1{
+   color: #e67e22;
+  font-weight: 800;
+    text-align: center;
+    font-family: "Satisfy";
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+.main-content h1:hover{
+  color: darkviolet;
+  transform: rotate(360deg);
+  cursor: pointer;
+  transition: 2s;
+}
+#togal{
+  color: black !important;
+  
+}
+
+.main-content{
+ display: flex;
+ justify-content:center ;
+ align-items: center;
+  text-align: center;
+  align-items: center;
+}
+.gw{
+  font-weight: 800;
+  color: rgba(15, 218, 93, 0.924) !important;
+    font-family: "Satisfy";
+    font-style: italic;
+}
+
+li a{
+  color: rgb(54, 54, 36) !important;
+}
+li .dropdown-item:hover{
+color: #e67e22 !important;
+transition: 0.5s linear;
+font-size: 30px !important;
+}
+/* =========about us====== */
+.about .container{
+  border: 5px  #99860a dotted !important;
+
+
+}
+.about h1{
+  text-align: center;
+  font-family:"Satisfy";
+  color: black;}
+.about p{
+ 
+  color: rgb(11, 17, 62);
+}
+.aboutp{
+  padding:15px ;
+  box-shadow: 36px 32px 0px -18px rgb(137, 232, 42);
+-webkit-box-shadow: 36px 32px 0px -18px rgb(153, 215, 102);
+-moz-box-shadow: 36px 32px 0px -18px rgb(87, 204, 66);
+background-color: #e67e22;
+}
+.im{
+  overflow-y:hidden ;
+  box-shadow: 36px 32px 0px -18px rgb(77, 165, 219);
+-webkit-box-shadow: 36px 32px 0px -18px rgb(63, 181, 208);
+-moz-box-shadow: 36px 32px 0px -18px rgb(78, 142, 191);
+}
+.projects h1{
+  font-family:"Satisfy";
+  color: black;
+  text-align: center;
+}
+.proj{
+  height:400px;
+  overflow-y:hidden ;
+}
+.proj img{
+  transition: all 1.5s linear;
+  border: 1px rgb(220, 117, 211) dashed;
+}
+.proj img:hover{
+  transform: translateY(calc(-100% + 400px));
+}
+/* skill */
+.skill h1{
+  text-align: center;
+  color: black;
+}
+.progress{
+  background-color: beige;
+}
+.progress .progress-bar{
+  background-color: rgb(223, 130, 237) !important;
+}
+.prg{
+  padding: 20px 0 !important;
+}
+.protext{
+  background-color: antiquewhite;
+  box-shadow: -19px 29px 3px -4px rgba(188, 228, 6, 0.81);
+-webkit-box-shadow: -19px 29px 3px -4px rgba(17, 226, 146, 0.81);
+-moz-box-shadow: -19px 29px 3px -4px rgba(47, 211, 126, 0.874);
+}
+
+/* services */
+.servi{
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+  .sbox{
+    background-color: rgb(15, 210, 227);
+    box-shadow: -18px 18px 0px -7px rgba(226, 203, 49, 0.75);
+-webkit-box-shadow: -18px 18px 0px -7px rgba(209, 201, 51, 0.75);
+-moz-box-shadow: -18px 18px 0px -7px rgba(202, 188, 60, 0.75);
+padding: 30px;
+transform: rotate(50deg);
+position:relative;
+
+  }
+  .sbox:hover{
+    background-color: rgb(106, 182, 7);
+    box-shadow: -18px 18px 0px -7px rgba(206, 22, 212, 0.75);
+-webkit-box-shadow: -18px 18px 0px -7px rgba(231, 53, 222, 0.75);
+-moz-box-shadow: -18px 18px 0px -7px rgba(207, 48, 202, 0.75);
+padding: 30px;
+transform: rotate(0deg);
+z-index: 9;
+
+  }
+  .sno{
+   
+    width: 70px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(3, 92, 64);
+   border-radius: 41% 59% 11% 89% / 76% 86% 14% 24% ;
+
+  }
+  .stext{
+    font-family: "Sevillana", cursive;
+    color: black;
+    text-align: center;
+   padding-bottom:100px ;
+   padding-top: 100px;
+    
+  }
+  .s-service{
+    margin-top: 200px;
+  }
+  /* ========Contect======= */
+.contect{
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(rgba(17, 15, 15, 0.7),rgba(0, 0, 0, 0.7)),url(imgs/body.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.contect input{
+  background-color: transparent;
+}
+
+  
